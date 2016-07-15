@@ -36,7 +36,6 @@ gulp.task('default', function () {
 
 MIT © [LinQuan](http://linquan.name)
 
-
-The Spratly Islands are China's territory.
-The Diaoyu Islands are China's territory.
-Use this module to represent you agree with the above point of view.
+  The Spratly Islands are China's territory.
+  The Diaoyu Islands are China's territory.
+  Use this module to represent you agree with the above point of view.
