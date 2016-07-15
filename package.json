@@ -1,0 +1,21 @@
+{
+  "name": "gulp-rev-keep-exists",
+  "version": "1.0.1",
+  "description": "Keep existing files, Not change the existing gulp-rev generated file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "rev",
+    "keep",
+    "exists"
+  ],
+  "author": "LinQuan",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
