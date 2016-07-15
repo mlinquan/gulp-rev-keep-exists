@@ -1,6 +1,6 @@
 {
   "name": "gulp-rev-keep-exists",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Keep existing files, Not change the existing gulp-rev generated file.",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,6 @@
   "dependencies": {
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
-  }
+  },
+  "readmeFilename": "README.md"
 }
