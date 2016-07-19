@@ -1,6 +1,6 @@
 {
   "name": "gulp-rev-keep-exists",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Keep existing files, Not change the existing gulp-rev generated file.",
   "main": "index.js",
   "scripts": {
