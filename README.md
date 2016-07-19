@@ -22,12 +22,12 @@ var revKeep = require('gulp-rev-keep-exists');
 var revDel = require('gulp-rev-del-redundant');
 
 gulp.task('default', function () {
-	return gulp.src(['src/css/**/*.css','src/js/**/*.js'])
-		.pipe(rev())
-		.pipe(revKeep('dest'))		//<-- keep
-		.pipe(gulp.dest('dest'))
-		.pipe(revKeep.restore())	//<-- restor keep
-		.pipe(rev.manifest())
+    return gulp.src(['src/css/**/*.css','src/js/**/*.js'])
+        .pipe(rev())
+        .pipe(revKeep('dest'))      //<-- keep
+        .pipe(gulp.dest('dest'))
+        .pipe(revKeep.restore())    //<-- restore keep
+        .pipe(rev.manifest())
         .pipe(gulp.dest('rev'))
         .pipe(revDel({ dest: 'dest', force: true }));
 });
